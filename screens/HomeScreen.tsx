@@ -71,7 +71,7 @@ export default function HomeScreen({ navigation, items, removeItem, averages }: 
 
 
 
-const c = { bg: "#12100f", card: "#1b1513", text: "#f5e9d7", meta: "#b69b7f", accent: "#c08a5a", chip: "#2b221f" };
+const c = { bg: "#8d6e63", card: "#1b1513", text: "#f5e9d7", meta: "#b69b7f", accent: "#c08a5a", chip: "#2b221f" };
 
 const styles = StyleSheet.create({
     container: { flex: 1, backgroundColor: c.bg, padding: 16 },

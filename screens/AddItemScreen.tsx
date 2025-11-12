@@ -22,7 +22,7 @@ type Props = NativeStackScreenProps<RootStackParamList, "AddItem"> & {
 };
 
 const c = {
-    bg: "#1D2B36",    // Deep Forest Green
+    bg: "#8d6e63",    // Deep Forest Green
     card: "#2A3844",  // Lighter Green-Gray
     text: "#F0F4F7",  // Ivory/Cream White
     meta: "#9CAABD",  // Muted Gray-Green

@@ -17,7 +17,7 @@ export default function WelcomeScreen({ navigation }: Props) {
                     <Text style={styles.title}>Christoffels</Text>
                     <Text style={styles.subtitle}>Starters   Main   Ddessert</Text>
                     <TouchableOpacity style={styles.cta} onPress={() => navigation.replace("Home")}>
-                        <Text style={styles.ctaText}>Enter Restaurant</Text>
+                        <Text style={styles.ctaText}>Explore </Text>
                     </TouchableOpacity>
                 </View> 
             </ImageBackground>
