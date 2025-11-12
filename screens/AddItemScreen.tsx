@@ -21,13 +21,15 @@ type Props = NativeStackScreenProps<RootStackParamList, "AddItem"> & {
     addItem: (item: RestaurantItem) => void; 
 };
 
-const c = {bg: "#12100f",
-    card: "#1b1513",
-    text: "#f5e9d7",
-    meta: "#b696b7f",
-    accent: "#c08a5a",
-    input: "#2b221f",
-    border: "#3a302d" };
+const c = {
+    bg: "#1D2B36",    // Deep Forest Green
+    card: "#2A3844",  // Lighter Green-Gray
+    text: "#F0F4F7",  // Ivory/Cream White
+    meta: "#9CAABD",  // Muted Gray-Green
+    accent: "#7DA7C6", // Classic Gold
+    input: "#394B5B",  // Input BG
+    border: "#4A5B57"  // Border/Divider
+};
 
 function uid() {
     return Date.now().toString(36) + Math.random().toString(36).slice(2, 10); 
