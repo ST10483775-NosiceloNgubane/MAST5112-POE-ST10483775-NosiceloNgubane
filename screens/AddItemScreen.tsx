@@ -58,7 +58,6 @@ export default function AddItemScreen({ navigation, addItem }: Props) {
     description, 
     category, 
     price: p, 
-    // ADDED intensity and image to satisfy the RestaurantItem interface
     intensity: intensity, 
     image: image,
     ingredients: ingredients.split(",").map(i => i.trim()).filter(Boolean) 
@@ -87,9 +86,9 @@ export default function AddItemScreen({ navigation, addItem }: Props) {
                                     style={styles.picker}
                                     itemStyle={{ height: 44 }}
                                 >
-                                <Picker.Item label="Starter" value="Starters" color="#f5e9d7"/>
-                                <Picker.Item label="Main" value="Mains" color="#f5e9d7"/>
-                                <Picker.Item label="Dessert" value="Desserts" color="#f5e9d7"/>
+                                <Picker.Item label="Starters" value="Starters" color="#f5e9d7"/>
+                                <Picker.Item label="Mains" value="Mains" color="#f5e9d7"/>
+                                <Picker.Item label="Desserts" value="Desserts" color="#f5e9d7"/>
                             </Picker>
                         </View>
                     </View>

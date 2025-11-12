@@ -174,7 +174,7 @@ export default function App() {
                     component={WelcomeScreen}
                     options={{ headerShown: false }}
                 />
-                <Stack.Screen name="Home" options={{ title: "Barista Bliss" }}>
+                <Stack.Screen name="Home" options={{ title: "Christoffels" }}>
                     {(props: any) => ( 
                         <HomeScreen
                             {...props}

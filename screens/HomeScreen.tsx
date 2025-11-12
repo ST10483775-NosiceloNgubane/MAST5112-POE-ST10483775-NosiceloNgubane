@@ -22,7 +22,6 @@ export default function HomeScreen({ navigation, items, removeItem, averages }: 
     <SafeAreaView style={ styles.container }>
         <Text style={styles.heading}>The Menu ({items.length})</Text>
 
-        {/* Note: Based on your styles, the row of stats is named 'statsRow' */}
         <View style={styles.statsRow}> 
             <View style={styles.stat}>
                 <Text style={styles.statLabel}>Starters</Text>
