@@ -6,7 +6,7 @@ import { NativeStackScreenProps } from "@react-navigation/native-stack";
 
 type Props = NativeStackScreenProps<RootStackParamList, "Filter">;
 
-const c = {bg: "#8d6e63", card: "#55433cff", text: "#f5e9d7", meta: "#b696b7f", input: "#2b221f" , border: "#3a303d"};
+const c = {bg: "#4e342e", card: "#3e2723", text: "#f5e9d7", meta: "#b696b7f", input: "#7e645bff" , border: "#3a303d"};
 
 export default function FilterScreen({ route }: Props) {
     const items: RestaurantItem[] = route.params?.items || [];

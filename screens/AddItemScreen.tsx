@@ -22,10 +22,10 @@ type Props = NativeStackScreenProps<RootStackParamList, "AddItem"> & {
 };
 
 const c = {
-    bg: "#8d6e63",    
-    card: "#5f4b43ff",  
-    text: "#1b1513",  
-    meta: "#795e55ff",  
+    bg: "#4e342e",    
+    card: "#3e2723",  
+    text: "#b1897bff",  
+    meta: "#1b1513",  
     accent: "#755c53ff", 
     input: "#5c473fff", 
     border: "#b1897bff"  
@@ -68,12 +68,18 @@ export default function AddItemScreen({ navigation, addItem }: Props) {
     navigation.goBack();
     };
     return (
-        <KeyboardAvoidingView behavior={Platform.OS === "ios" ? "padding" : undefined} style={{ flex: 1 }}>
+        <KeyboardAvoidingView 
+        behavior={Platform.OS === "ios" ? "padding" : undefined} 
+        style={[
+            { flex: 1 }, 
+            { backgroundColor: c.bg } 
+        ]}
+    >
             <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
                 <ScrollView contentContainerStyle={styles.form}>
                     <Text style={styles.label}>Add Item Name</Text>
-
                     <TextInput style={styles.input} placeholder="Item name" placeholderTextColor={c.meta} value ={itemName} onChangeText={setItemName} />
+                    <Text style={styles.label}>Category</Text>
                     <TextInput style={styles.input} placeholder="Description" placeholderTextColor={c.meta} value={description} onChangeText={setDescription} />
 
                     <View style={styles.pickerWrap}>

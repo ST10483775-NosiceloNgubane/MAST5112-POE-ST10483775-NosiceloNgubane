@@ -61,7 +61,7 @@ export default function HomeScreen({ navigation, items, removeItem, averages }: 
                 <TouchableOpacity style={styles.fab} onPress={() => navigation.navigate("AddItem")}>
                     <Text style={styles.fabText}>＋Add Dish</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={[styles.fab, styles.fabAlt]} onPress={() => navigation.navigate("Filter", { items })}>
+                <TouchableOpacity style={[styles.fab]} onPress={() => navigation.navigate("Filter", { items })}>
                     <Text style={styles.fabText}>Filter</Text>  
                 </TouchableOpacity>
             </View>
@@ -71,7 +71,7 @@ export default function HomeScreen({ navigation, items, removeItem, averages }: 
 
 
 
-const c = { bg: "#8d6e63", card: "#52403aff", text: "#1b1513", meta: "#b69b7f", accent: "#c08a5a", chip: "#2b221f" };
+const c = { bg: "#4e342e", card: "#3e2723", text: "#f5e9d7", meta: "#8d6e63", accent: "#a1887f", chip: "#5d4037" };
 
 const styles = StyleSheet.create({
     container: { flex: 1, backgroundColor: c.bg, padding: 16 },
@@ -90,6 +90,5 @@ const styles = StyleSheet.create({
     removeText: { color: c.text, fontWeight: "800" },
     fabs: { position: "absolute", right: 20, bottom: 20, flexDirection: "row", gap: 12 },
     fab: { backgroundColor: c.accent, paddingVertical: 14, paddingHorizontal: 22, borderRadius: 30, elevation: 6 },
-    fabAlt: { backgroundColor: "#946a46" },
     fabText: { color: c.bg, fontWeight: "900" }
 });

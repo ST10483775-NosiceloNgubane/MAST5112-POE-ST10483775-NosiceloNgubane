@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     overlay: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(12,9,8,0.55)" },
     center: { alignItems: "center", paddingHorizontal: 24 },
     title: { color: "#f5e9d7", fontSize: 42, fontWeight: "800" },
-    subtitle: { color: "#d3b08a", fontSize: 16, marginTop: 6, marginBottom: 28 },
-    cta: { backgroundColor: "#c08a5a", paddingVertical: 14, paddingHorizontal: 44, borderRadius: 28, elevation: 6 },
-    ctaText: { color: "#1b1513", fontWeight: "900", fontSize: 18 }
+    subtitle: { color: "#1b1513", fontSize: 16, marginTop: 6, marginBottom: 28 },
+    cta: { backgroundColor: "#4e342e", paddingVertical: 14, paddingHorizontal: 44, borderRadius: 28, elevation: 6 },
+    ctaText: { color: "#f5e9d7", fontWeight: "900", fontSize: 18 }
 });
