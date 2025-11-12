@@ -28,7 +28,7 @@ const c = {
     meta: "#795e55ff",  // Muted Gray-Green
     accent: "#755c53ff", // Classic Gold
     input: "#5c473fff",  // Input BG
-    border: "#4A5B57"  // Border/Divider
+    border: "#b1897bff"  // Border/Divider
 };
 
 function uid() {
