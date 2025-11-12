@@ -15,7 +15,7 @@ export default function WelcomeScreen({ navigation }: Props) {
                 <View style={styles.overlay} />
                 <View style={styles.center}>
                     <Text style={styles.title}>Christoffels</Text>
-                    <Text style={styles.subtitle}>Starters   Main   Ddessert</Text>
+                    <Text style={styles.subtitle}>Indluge in our creative restaurant</Text>
                     <TouchableOpacity style={styles.cta} onPress={() => navigation.replace("Home")}>
                         <Text style={styles.ctaText}>Explore </Text>
                     </TouchableOpacity>

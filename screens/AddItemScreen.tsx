@@ -22,13 +22,13 @@ type Props = NativeStackScreenProps<RootStackParamList, "AddItem"> & {
 };
 
 const c = {
-    bg: "#8d6e63",    // Deep Forest Green
-    card: "#5f4b43ff",  // Lighter Green-Gray
-    text: "#F0F4F7",  // Ivory/Cream White
-    meta: "#795e55ff",  // Muted Gray-Green
-    accent: "#755c53ff", // Classic Gold
-    input: "#5c473fff",  // Input BG
-    border: "#b1897bff"  // Border/Divider
+    bg: "#8d6e63",    
+    card: "#5f4b43ff",  
+    text: "#1b1513",  
+    meta: "#795e55ff",  
+    accent: "#755c53ff", 
+    input: "#5c473fff", 
+    border: "#b1897bff"  
 };
 
 function uid() {
@@ -95,8 +95,11 @@ export default function AddItemScreen({ navigation, addItem }: Props) {
                         </View>
                     </View>
 
+                    <Text style={styles.label}>Price</Text>
                     <TextInput style={styles.input} placeholder="Price" placeholderTextColor={c.meta} keyboardType="numeric" value={price} onChangeText={setPrice} />
+                    <Text style={styles.label}>Image</Text>
                     <TextInput style={styles.input} placeholder="Image URL" placeholderTextColor={c.meta} value={image} onChangeText={setImage} />
+                    <Text style={styles.label}>Ingredients</Text>
                     <TextInput style={styles.input} placeholder="Ingredients (comma separated)" placeholderTextColor={c.meta} value={ingredients} onChangeText={setIngredients} />
                     {image ? <Image source={{ uri: image }} style={styles.preview} /> : null}
 

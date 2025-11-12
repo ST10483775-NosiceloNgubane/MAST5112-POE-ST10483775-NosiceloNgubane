@@ -165,7 +165,7 @@ export default function App() {
         <NavigationContainer>
             <Stack.Navigator
                 screenOptions={{
-                    headerStyle: { backgroundColor: "#8d6e63" },
+                    headerStyle: { backgroundColor: "#5f4b43ff" },
                     headerTintColor: "#f5e9d7",
                     headerTitleStyle: { fontWeight: "800" }
                 }}>
@@ -174,7 +174,7 @@ export default function App() {
                     component={WelcomeScreen}
                     options={{ headerShown: false }}
                 />
-                <Stack.Screen name="Home" options={{ title: "Christoffels" }}>
+                <Stack.Screen name="Home" options={{ title: "✤Christoffels✤" }}>
                     {(props: any) => ( 
                         <HomeScreen
                             {...props}
