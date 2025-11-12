@@ -23,11 +23,11 @@ type Props = NativeStackScreenProps<RootStackParamList, "AddItem"> & {
 
 const c = {
     bg: "#8d6e63",    // Deep Forest Green
-    card: "#2A3844",  // Lighter Green-Gray
+    card: "#5f4b43ff",  // Lighter Green-Gray
     text: "#F0F4F7",  // Ivory/Cream White
-    meta: "#9CAABD",  // Muted Gray-Green
-    accent: "#7DA7C6", // Classic Gold
-    input: "#394B5B",  // Input BG
+    meta: "#795e55ff",  // Muted Gray-Green
+    accent: "#755c53ff", // Classic Gold
+    input: "#5c473fff",  // Input BG
     border: "#4A5B57"  // Border/Divider
 };
 
