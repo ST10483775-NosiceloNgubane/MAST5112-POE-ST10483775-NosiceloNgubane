@@ -1,5 +1,12 @@
 POE Changelog
-This POE focused on the design and development of a mobile application for a chef named Christoff Els and his restaurant. The purpose of the application is to allow the chef to add the dishes he creates, while also enabling users to browse and filter through various dishes according to their preferences. The project aimed to deliver a clean, intuitive, and visually appealing interface that enhances both functionality and user experience.
+
+This POE focused on the design and development of a mobile application for a chef named Christoffelsand his restaurant. The purpose of the application is to allow the chef to add the dishes he creates, while also enabling users to browse and filter through various dishes according to their preferences. The project aimed to deliver a clean, intuitive, and visually appealing interface that enhances both functionality and user experience.
+
+Feedback from Part 1
+
+After submitting Part 2, I received feedback suggesting that I should:
+– Make each dish stand out more on the Home Screen by placing them in clearer, separate blocks for easier readability.
+– Review my Filter Screen, as it appeared there were two filter screens, which caused confusion in the design flow.
 
 Changelog – Part 2 (16–19 October 2025)
 During Part 2 of my POE, I implemented several design and functionality enhancements to improve the overall usability and visual appeal of my application:
@@ -20,8 +27,13 @@ During Part 2 of my POE, I implemented several design and functionality enhancem
 
 – Applied a consistent solid background color in place of an image background to improve readability and make text and cards stand out more clearly.
 
+Feedback from Part 1
+
+For Part 1 of my POE, I received full marks, and therefore no additional feedback was provided.
+
 Changelog – Final POE (9–12 November 2025)
 In my final POE submission, I made further refinements to enhance both the functionality and user experience of my application:
+
 – Added average price displays for each meal at the top of the page, allowing users to view the average cost per meal category.
 
 – Introduced a filter feature, enabling users to filter dishes according to their preferences a feature that was not added in Part 2.
