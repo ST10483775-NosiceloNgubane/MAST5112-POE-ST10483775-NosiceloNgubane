@@ -1,3 +1,10 @@
+//CODE ATRIBUTION-->
+//TITLE: A Comprehensive Guide to Time Pickers in TypeScript.V
+//AUTHOR: Webdevtutor
+//DATE: 09/11/2025
+//VERSION:First Edition : 2025
+//AVAILABLE:https://www.webdevtutor.net/blog/typescript-time-picker
+
 import React, { useState } from "react";
 import { 
     KeyboardAvoidingView,

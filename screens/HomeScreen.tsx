@@ -1,3 +1,10 @@
+//CODE ATRIBUTION-->
+//TITLE: React Native FlatList Component.
+//AUTHOR: GeeksforGeeks
+//DATE: 09/11/2025
+//VERSION:First Edition : 2021
+//AVAILABLE:https://www.geeksforgeeks.org/react-native/react-native-flatlist-component
+
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { RootStackParamList, RestaurantItem } from "../type"; 
 import { Alert, FlatList, Image, SafeAreaView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
