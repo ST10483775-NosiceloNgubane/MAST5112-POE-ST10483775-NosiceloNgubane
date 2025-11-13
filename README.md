@@ -1,13 +1,12 @@
+POE Changelog
+
+This POE focused on the design and development of a mobile application for a chef named Christoffelsand his restaurant. The purpose of the application is to allow the chef to add the dishes he creates, while also enabling users to browse and filter through various dishes according to their preferences. The project aimed to deliver a clean, intuitive, and visually appealing interface that enhances both functionality and user experience.
+
 Feedback from Part 1
 
 After submitting Part 2, I received feedback suggesting that I should:
 – Make each dish stand out more on the Home Screen by placing them in clearer, separate blocks for easier readability.
 – Review my Filter Screen, as it appeared there were two filter screens, which caused confusion in the design flow.
-
-
-POE Changelog
-
-This POE focused on the design and development of a mobile application for a chef named Christoffelsand his restaurant. The purpose of the application is to allow the chef to add the dishes he creates, while also enabling users to browse and filter through various dishes according to their preferences. The project aimed to deliver a clean, intuitive, and visually appealing interface that enhances both functionality and user experience.
 
 Changelog – Part 2 (16–19 October 2025)
 During Part 2 of my POE, I implemented several design and functionality enhancements to improve the overall usability and visual appeal of my application:
